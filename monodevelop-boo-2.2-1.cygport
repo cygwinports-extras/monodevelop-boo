@@ -1,0 +1,15 @@
+inherit mono
+
+DESCRIPTION="Boo plugin for MonoDevelopIDE"
+HOMEPAGE="http://monodevelop.com/"
+
+PATCH_URI="2.2-gtksourceview2-sharp.patch"
+
+MAKEOPTS+=" -j1"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	./configure --prefix=/usr --config=RELEASE
+	cygmake
+}
