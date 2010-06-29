@@ -1,5 +1,5 @@
 category: Devel DotNET
-requires: boo mono mono-Boo-Lang2.0 mono-gconf-sharp2.0 mono-glib-sharp2.0 mono-gtk-sharp2.0 mono-gtksourceview2-sharp2.0 mono-pango-sharp2.0 monodevelop
+requires: boo mono mono-Boo-Lang2.0 mono-glib-sharp2.0 mono-gtk-sharp2.0 mono-pango-sharp2.0 monodevelop
 sdesc: "Boo plugin for MonoDevelop IDE"
 ldesc: "MonoDevelop is an IDE primarily designed for C# and other .NET
 languages. MonoDevelop enables developers to quickly write desktop and
